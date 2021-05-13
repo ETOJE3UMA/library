@@ -1,0 +1,142 @@
+.table-container {
+  padding: 0 60px;
+}
+
+.el-table {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.el-pagination-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+  margin-top: 24px;
+}
+
+.el-table .table-actions > * {
+  margin-right: 8px;
+}
+
+.el-table .sort-caret {
+  display: none;
+}
+
+.el-table th > .cell {
+  text-align: center;
+}
+
+.el-table--border,
+.el-table--group {
+  border: none;
+}
+
+.el-table {
+  background: transparent;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(5px);
+  color: #000 !important;
+}
+
+.el-table thead {
+  color: #000 !important;
+  font-family: Montserrat;
+  font-weight: 300 !important;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.el-table,
+.el-table__expanded-cell {
+  background: linear-gradient(
+      126.12deg,
+      rgba(237, 214, 177, 0.1) 19.39%,
+      rgba(154, 128, 86, 0.1) 75.83%
+    ),
+    rgba(251, 239, 219, 0.7) !important;
+}
+
+.el-table--enable-row-transition:hover .el-table__body td {
+  background-color: transparent;
+}
+.el-table__body td {
+  text-align: center !important;
+}
+
+.el-table .caret-wrapper {
+  display: none !important;
+}
+
+.el-tag--success {
+  background-color: #92c1a6 !important;
+  color: #fff !important;
+  border: 1px solid #ffffff !important;
+  border-radius: 10px !important;
+}
+
+.el-tag--danger {
+  background: #c19292 !important;
+  color: #fff !important;
+  border: 1px solid #ffffff !important;
+  border-radius: 10px !important;
+}
+
+.el-tag--info {
+  background: #A3A3A3;
+  color: #fff;
+  border: 1px solid #ffffff !important;
+  border-radius: 10px !important;
+}
+
+.el-checkbox__inner {
+  background: transparent !important;
+  border: 1px solid #fff !important;
+}
+
+.el-table a {
+  font-weight: 400 !important;
+  color: #000 !important;
+}
+
+.el-pagination {
+  background: linear-gradient(
+      126.12deg,
+      rgba(191, 224, 205, 0.35) 19.39%,
+      rgba(49, 70, 58, 0.35) 75.83%
+    ),
+    rgba(158, 177, 166, 0.7);
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(5px);
+  border-radius: 20px;
+  padding: 10px 5px !important;
+}
+
+.el-pagination button, .el-pagination button:disabled {
+  background-color: transparent !important;
+  color: #fff !important;
+}
+
+.el-pager, .el-pager li {
+  background: transparent !important;
+  color: #fff !important;
+}
+
+.el-pagination__total {
+  color: #fff !important; 
+  padding-left: 22px;
+}
+
+.el-pagination .el-select .el-input .el-input__inner {
+  background-color: #E0C498 !important;
+  color: #fff !important;
+  border: 1px solid #fff;
+  border-radius: 10px !important;
+}
+
+.el-pagination .el-select .el-input .el-select__caret {
+  color: #fff !important;
+}
+
+.el-input--mini {
+  width: 130px !important;
+}

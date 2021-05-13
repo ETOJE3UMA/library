@@ -1,0 +1,56 @@
+.form .form-buttons {
+  width: 100%;
+  margin-top: 16px;
+}
+
+.form .form-buttons > * {
+  margin-right: 8px;
+  margin-bottom: 8px;
+}
+
+.form .form-buttons .el-button + .el-button {
+  margin-left: 0px;
+}
+
+.form .form-field {
+  margin-top: 8px;
+}
+
+.form .el-input {
+  width: 100% !important;
+}
+
+.form .el-input-number {
+  width: 100% !important;
+}
+
+.form .el-input.is-disabled .el-input__inner {
+  background: rgba(255, 255, 255, 0.6) !important;
+  color: #777 !important;
+}
+
+.form .el-select {
+  width: 100%;
+}
+
+.el-form-item__label {
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 15px !important;
+  line-height: 22px;
+  color: #fff !important;
+  width: 140px !important;
+}
+
+.filter {
+  border: none !important;
+}
+
+.el-form-item__content {
+  margin-left: 140px !important;
+}
+
+.el-input-number__decrease, .el-input-number__increase {
+  background-color: #E0C498 !important;
+  color: #fff !important;
+}

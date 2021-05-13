@@ -1,0 +1,139 @@
+.auth .content {
+  margin: 130px 130px;
+  width: 100%;
+  height: 85%;
+  background: linear-gradient(
+      111.82deg,
+      rgba(191, 224, 205, 0.25) 10.42%,
+      rgba(49, 70, 58, 0.25) 87.57%
+    ),
+    rgba(158, 177, 166, 0.5);
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(5px);
+  border-radius: 20px;
+}
+
+.auth .content .content-inner {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+@media only screen and (max-width: 767px) {
+  .auth .content {
+    width: 100%;
+  }
+}
+
+.auth .wrapper {
+  width: 100%;
+  min-height: 100vh;
+  height: 100vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: relative;
+  background-size: cover;
+}
+
+.auth .content h1 {
+  font-size: 18px;
+  color: #fff;
+  line-height: 22px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.auth .logo {
+  display: inline-block;
+  background: url(/images/logo.png);
+  width: 38px;
+  height: 35px;
+  background-size: contain;
+  margin: 0 15px;
+}
+
+.auth .other-actions {
+  text-align: center;
+}
+
+.el-button--text {
+  color: #fff !important;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.el-checkbox__input.is-checked + .el-checkbox__label,
+.el-checkbox__label {
+  color: #fff !important;
+  font-size: 13px !important;
+  line-height: 10px !important;
+}
+
+.el-button--my:focus,
+.el-button--my:hover,
+.el-button--my,
+.el-button,
+.el-button:focus,
+.el-button:hover {
+  background-color: #e0c498 !important;
+  color: #fff !important;
+  border-color: #e0c498 !important;
+}
+
+.el-button--text,
+.el-button--text:hover,
+.el-button--text:focus {
+  background-color: transparent !important;
+  border-color: transparent !important;
+}
+
+.el-button.is-disabled, .el-button.is-disabled:focus, .el-button.is-disabled:hover {
+  background: #E6DAC8 !important;
+  color: #777 !important;
+  border-color: #E6DAC8 !important;
+}
+
+.auth .social-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.auth .social-buttons {
+  font-size: 24px;
+}
+
+.auth .social-buttons .social-icon {
+  margin-left: 16px;
+  margin-right: 16px;
+  font-size: 36px;
+  cursor: pointer;
+}
+
+.auth .wrapper.email-unverified {
+  background-image: url(/images/emailUnverified.jpg);
+}
+
+.auth .wrapper.empty-permissions {
+  background-image: url(/images/emptyPermissions.jpg);
+}
+
+.auth .wrapper.forgot-password {
+  background-image: url(/images/forgotPassword.jpg);
+}
+
+.auth .wrapper.signin {
+  background: url(/images/signin.png) 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.auth .wrapper.signup {
+  background-image: url(/images/signup.jpg);
+}
